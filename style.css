@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #343a40;
+  height: 60px;
+  color: white;
+  font-size: 2rem;
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #ffd23f;
+  padding: 10px;
+}
+
+#num {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  padding: 8px;
+}
+
+#num:focus {
+  box-shadow: 0px 0px 6px lightskyblue;
+  outline: none;
+}
+
+.result {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.resulthl {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: #fff3cd;
+  color: #956445;
+}
+
+.resultcorrect {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.resultwrong {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: red;
+  color: white;
+}
+
+.buttonContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 8px;
+  font-size: 1.125rem;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin: 0 5px 20px 5px;
+}
+
+button:hover {
+  background-color: #5a6268;
+  cursor: pointer;
+}
+
+#restart {
+  background-color: white;
+  color: black;
+}
+
+#restart:hover {
+  background-color: #e2e6ea;
+}
+
+ul li {
+  font-size: 1.125rem;
+  padding: 12px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 14px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(83, 83, 83);
+}
