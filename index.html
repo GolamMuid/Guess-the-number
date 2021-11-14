@@ -3,24 +3,27 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Guess the Number</title>
 </head>
 
 <body>
-    <nav>
+
+    <div class="nav">
         Magic number
-    </nav>
+    </div>
     <div class="container">
         <h1>Guess the number...</h1>
-        <input id="num" type="number" placeholder="what's your guess?"> <br>
+        <input id="num" type="number" placeholder="what's your guess?(It's between 1 and 99)">
         <div id="output" class="">
-            <!-- <p id="result">Your Guess will be displayed here</p> -->
-        </div>
 
+        </div>
 
         <div class="buttonContainer">
             <button id="check" onclick="check()">Check me</button>
             <button id="restart" onclick="restart()">Restart</button>
+        </div>
+        <div id="score">
+            Number of guesses left: 10
         </div>
         <ul id="guess">
 
